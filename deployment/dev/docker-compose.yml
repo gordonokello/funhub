@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  funhub:
+    image: iandm/funhub:1.0.0
+    container_name: funhub
+    ports:
+      - "7050:7050"
+    env_file:
+      - ../../.env
+    restart: unless-stopped
+    volumes:
+      - /home/sm3055/funhub:/home/sm3055/funhub
