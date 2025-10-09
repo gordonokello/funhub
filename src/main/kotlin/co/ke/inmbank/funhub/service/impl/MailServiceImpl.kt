@@ -16,10 +16,6 @@ class MailServiceImpl(
         val template = EmailUtil.secretSantaTemplate(
             giver = "Gordon",
             recipient = "Wladek",
-            budget = "KES 2000",
-            date = "24th OCT 2025",
-            location = "iCube",
-            organizer = "FunHub"
         )
         val emailSent = EmailUtil.sendMail(
             host = funhubConfig.host,
