@@ -12,7 +12,7 @@ spring:
     hibernate:
       ddl-auto: none
   liquibase:
-    enabled: false
+    enabled: true
 inmbank:
   funhub:
     image-folder: ${RESOURCE_FOLDER:folder}

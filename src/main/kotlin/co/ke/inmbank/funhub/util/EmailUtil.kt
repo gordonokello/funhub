@@ -215,7 +215,7 @@ object EmailUtil {
                                                                                     <div>
                                                                                         <div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">Hi ${giver},</span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;">Hi <strong>${giver}</strong>,</span>
                                                                                             </div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
@@ -223,7 +223,7 @@ object EmailUtil {
                                                                                             </div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">You will be gifting to: ${recipient}</span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;">You will be gifting to<strong>: ${recipient}</strong></span>
                                                                                             </div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span

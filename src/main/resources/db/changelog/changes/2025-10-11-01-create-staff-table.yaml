@@ -1,0 +1,94 @@
+databaseChangeLog:
+  - changeSet:
+      id: fh2025101101-1
+      author: gordon.okello
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_fh_staff
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  name: created_at
+                  type: TIMESTAMP
+              - column:
+                  constraints:
+                    nullable: false
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  name: modified_at
+                  type: TIMESTAMP
+              - column:
+                  name: staff_id
+                  type: VARCHAR(255)
+              - column:
+                  name: first_name
+                  type: VARCHAR(255)
+              - column:
+                  name: other_names
+                  type: VARCHAR(255)
+              - column:
+                  name: department
+                  type: VARCHAR(255)
+              - column:
+                  name: group_number
+                  type: VARCHAR(255)
+              - column:
+                  name: group_name
+                  type: VARCHAR(255)
+              - column:
+                  name: email
+                  type: VARCHAR(255)
+            tableName: fh_staff
+  - changeSet:
+      id: fh2025101101-2
+      author: gordon.okello
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: department
+            indexName: idx_fh_staff_department
+            tableName: fh_staff
+  - changeSet:
+      id: fh2025101101-3
+      author: gordon.okello
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: group_name
+            indexName: idx_fh_staff_groupName
+            tableName: fh_staff
+  - changeSet:
+      id: fh2025101101-4
+      author: gordon.okello
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: group_number
+            indexName: idx_fh_staff_groupNumber
+            tableName: fh_staff
+  - changeSet:
+      id: fh2025101101-5
+      author: gordon.okello
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: staff_id
+            indexName: idx_fh_staff_id
+            tableName: fh_staff
