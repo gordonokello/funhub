@@ -233,7 +233,7 @@ object EmailUtil {
                                                                                                 <ul style="font-family:verdana,geneva,sans-serif;">
                                                                                                     <li>Keep it anonymous until the big reveal!</li>
                                                                                                     <li>Aim for something thoughtful and fun.</li>
-                                                                                                    <li>Suggested budget: KES 2,000 MAX</li>
+                                                                                                    <li>Suggested budget: KES 2,000</li>
                                                                                                 </ul>
                                                                                             </div>
                                                                                             <div></div>
