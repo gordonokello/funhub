@@ -98,4 +98,19 @@ class SecretSantaServiceImpl(
         }
         return false
     }
+
+    override fun test(){
+        val template = EmailUtil.secretSantaTemplate(
+            giver = "Gordon",
+            recipient = "Wladek Airo",
+        )
+       EmailUtil.sendMail(
+            host = funhubConfig.host,
+            from = funhubConfig.sender,
+            to = "gordon.okello@imbank.co.ke",
+            subject = "Secret Santa",
+            htmlText = template,
+            imagePath = funhubConfig.imageFolder
+        )
+    }
 }
