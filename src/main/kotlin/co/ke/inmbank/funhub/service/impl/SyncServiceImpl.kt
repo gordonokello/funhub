@@ -13,12 +13,11 @@ class SyncServiceImpl(
 ): SyncService {
     val logger = LoggerFactory.getLogger(SyncServiceImpl::class.java)
     override fun init() {
-//        logger.info("Initializing Staff Data Sync")
-//        staffService.syncStaffData()
-//        logger.info("Initializing Secret Santa Sync")
-//        secretSantaService.setUpSecretSanta(2025)
-//        logger.info("initialization complete")
-        secretSantaService.test()
+        logger.info("Initializing Staff Data Sync")
+        staffService.syncStaffData()
+        logger.info("Initializing Secret Santa Sync")
+        secretSantaService.setUpSecretSanta(2025)
+        logger.info("initialization complete")
     }
 
 }

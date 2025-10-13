@@ -13,6 +13,8 @@ class FunHubScheduler(
 
     @Scheduled(cron = "\${inmbank.funhub.cron}", zone = "Africa/Nairobi")
     fun sendSecretSantaEmail() {
-//        secretSantaService.sendSantaEmail()
+        logger.info("Sending secret santa email")
+        secretSantaService.sendSantaEmail()
+        logger.info("Finished secret santa email")
     }
 }

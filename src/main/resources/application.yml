@@ -18,4 +18,4 @@ inmbank:
     image-folder: ${RESOURCE_FOLDER:folder}
     host: ${EMAIL_HOST:host}
     sender: ${EMAIL_SENDER:sender}
-    cron: ${NOTIFICATION_DATE_TIME:0 0 8 * * *}
+    cron: ${NOTIFICATION_DATE_TIME:0 0 17 * * *}
