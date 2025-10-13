@@ -83,7 +83,7 @@ class SecretSantaServiceImpl(
         val recipient   = staffService.findStaffById(entity.recipient).getOrNull()
         if (giver != null && recipient != null && entity.sentTo != null) {
             val template = EmailUtil.secretSantaTemplate(
-                giver = "${giver.firstName} ${giver.otherNames}",
+                giver = "${giver.firstName}",
                 recipient = "${recipient.firstName} ${recipient.otherNames}",
             )
             val emailSent = EmailUtil.sendMail(
