@@ -254,7 +254,7 @@ object EmailUtil {
                                                                                             </div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">Yours faithfully</span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;">Yours funfully, with mystery and mischief,</span>
                                                                                             </div>
                                                                                             <div><span
                                                                                                     style="font-family:verdana,geneva,sans-serif;"><strong>FunHub Crew</strong></span>
