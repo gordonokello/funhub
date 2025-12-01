@@ -5,6 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan
 import org.springframework.boot.runApplication
 import org.springframework.scheduling.annotation.EnableAsync
 import org.springframework.scheduling.annotation.EnableScheduling
+import java.util.TimeZone
 
 @SpringBootApplication
 @ConfigurationPropertiesScan
@@ -13,5 +14,6 @@ import org.springframework.scheduling.annotation.EnableScheduling
 class FunhubApplication
 
 fun main(args: Array<String>) {
+    TimeZone.setDefault(TimeZone.getTimeZone("EAT"))
     runApplication<FunhubApplication>(*args)
 }
