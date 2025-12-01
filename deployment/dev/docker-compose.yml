@@ -2,7 +2,7 @@ version: '3'
 
 services:
   funhub:
-    image: iandm/funhub:1.0.0
+    image: iandm/funhub:1.0.1
     container_name: funhub
     ports:
       - "7050:7050"

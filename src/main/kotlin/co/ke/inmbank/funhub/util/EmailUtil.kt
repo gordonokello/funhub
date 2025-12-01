@@ -243,7 +243,7 @@ object EmailUtil {
                                                                                             <div></div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">Gift exchange date: Friday, 5th December 2025 </span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;">Gift exchange date: Wednesday, 10th December 2025 </span>
                                                                                             </div>
                                                                                             <div><span
                                                                                                     style="font-family:verdana,geneva,sans-serif;">Location: iCube </span>
