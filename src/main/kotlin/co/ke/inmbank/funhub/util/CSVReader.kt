@@ -9,7 +9,7 @@ import java.io.FileReader
 object CSVReader {
     fun readStaffDetailsFromCSV(basePath: String): List<StaffDto> {
         val staff = mutableListOf<StaffDto>()
-        FileReader(File(basePath.plus("/images/iCube.csv"))).use { reader ->
+        FileReader(File(basePath.plus("/images/ict.csv"))).use { reader ->
             CSVParser(reader, CSVFormat.DEFAULT.withFirstRecordAsHeader()).use { csvParser ->
                 for (record in csvParser) {
                     val id          = record["staffId"]

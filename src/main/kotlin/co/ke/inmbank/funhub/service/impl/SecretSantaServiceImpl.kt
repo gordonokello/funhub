@@ -102,12 +102,12 @@ class SecretSantaServiceImpl(
     override fun test(){
         val template = EmailUtil.secretSantaTemplate(
             giver = "Gordon",
-            recipient = "Wladek Airo",
+            recipient = "Gloria",
         )
        EmailUtil.sendMail(
             host = funhubConfig.host,
             from = funhubConfig.sender,
-            to = "gordon.okello@imbank.co.ke",
+            to = "gloria.kathoni@imbank.co.ke",
             subject = "Secret Santa",
             htmlText = template,
             imagePath = funhubConfig.imageFolder

@@ -233,7 +233,7 @@ object EmailUtil {
                                                                                                 <ul style="font-family:verdana,geneva,sans-serif;">
                                                                                                     <li>Keep it anonymous until the big reveal!</li>
                                                                                                     <li>Aim for something thoughtful and fun.</li>
-                                                                                                    <li>Suggested budget: KES 2,000</li>
+                                                                                               
                                                                                                 </ul>
                                                                                             </div>
                                                                                             <div></div>
@@ -243,11 +243,9 @@ object EmailUtil {
                                                                                             <div></div>
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">Gift exchange date: Wednesday, 10th December 2025 </span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;">Gift exchange date: Wednesday, 28th November 2026 </span>
                                                                                             </div>
-                                                                                            <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;">Location: iCube </span>
-                                                                                            </div>
+                                                                                           
                                                                                             <div>&nbsp;</div>
                                                                                             <div><span
                                                                                                     style="font-family:verdana,geneva,sans-serif;">If you have any questions or need help, feel free to reach out.</span>
@@ -257,7 +255,7 @@ object EmailUtil {
                                                                                                     style="font-family:verdana,geneva,sans-serif;">Yours funfully, with mystery and mischief,</span>
                                                                                             </div>
                                                                                             <div><span
-                                                                                                    style="font-family:verdana,geneva,sans-serif;"><strong>FunHub Crew</strong></span>
+                                                                                                    style="font-family:verdana,geneva,sans-serif;"><strong>ICT Event Crew</strong></span>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>

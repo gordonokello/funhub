@@ -16,7 +16,7 @@ class SyncServiceImpl(
         logger.info("Initializing Staff Data Sync")
         staffService.syncStaffData()
         logger.info("Initializing Secret Santa Sync")
-        secretSantaService.setUpSecretSanta(2025)
+        secretSantaService.setUpSecretSanta(2026)
         logger.info("initialization complete")
     }
 
