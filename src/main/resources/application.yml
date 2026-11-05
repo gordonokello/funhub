@@ -15,7 +15,7 @@ spring:
     enabled: true
 inmbank:
   funhub:
-    image-folder: ${RESOURCE_FOLDER:folder}
+    image-folder: ${RESOURCE_FOLDER:/Users/gordon.okello/develop/funhub/src/main/resources}
     host: ${EMAIL_HOST:host}
     sender: ${EMAIL_SENDER:sender}
     cron: ${NOTIFICATION_DATE_TIME:0 10 17 * * *}
